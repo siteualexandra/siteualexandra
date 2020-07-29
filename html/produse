@@ -23,15 +23,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav mr-auto">
-            <a class="nav-item nav-link mx-5 active" href="despre_noi">DESPRE NOI</a>
-            <a class="nav-item nav-link mx-5" href="produse">PRODUSE</a>
+            <a class="nav-item nav-link mx-5" href="despre_noi">DESPRE NOI</a>
+            <a class="nav-item nav-link mx-5 active" href="produse">PRODUSE</a>
             <a class="nav-item nav-link mx-5" href="producator">PRODUCATOR</a>
             <a class="nav-item nav-link mx-5" href="contact" tabindex="-1">CONTACT</a>
           </div>
         </div>
       </nav>
     <!-- navbar -->
-
 
 
 </body>

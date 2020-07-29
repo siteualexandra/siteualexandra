@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BOTANIC FACTORY</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script src="../scripts/jquery-3.4.1.slim.min.js"></script>
+  <script src="../scripts/popper.min.js"></script>
+  <script src="..\scripts\bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand flex-md-fill text-md-center" href="despre_noi">BOTANIC FACTORY</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav mr-auto">
+        <a class="nav-item nav-link mx-5" href="despre_noi">DESPRE NOI</a>
+        <a class="nav-item nav-link mx-5" href="produse">PRODUSE</a>
+        <a class="nav-item nav-link mx-5" href="producator">PRODUCATOR</a>
+        <a class="nav-item nav-link mx-5 active" href="contact" tabindex="-1">CONTACT</a>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+<!--Google map-->
+<div class="container">
+<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2838.317517873394!2d26.07434931540136!3d44.651864079099745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b219b2dfa47225%3A0x778e04709dc14e92!2zU3RyYWRhIFBldHJlIElzcGlyZXNjdSAxLCBUw6JuY8SDYmXImXRp!5e0!3m2!1sro!2sro!4v1596016596104!5m2!1sro!2sro" height="500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="-1"></iframe>
+</div>
+</div>
+
+
+
+
+<!--Section: Contact v.1-->
+<section class="section pb-5">
+
+  <!--Section heading-->
+  <h2 class="section-heading h1 pt-4">Contact us</h2>
+  <!--Section description-->
+  <p class="section-description pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
+    amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a
+    pariatur accusamus veniam.</p>
+
+  <div class="row">
+
+    <!--Grid column-->
+    <div class="col-lg-5 mb-4">
+
+      <!--Form with header-->
+      <div class="card">
+
+        <div class="card-body">
+          <!--Header-->
+          <div class="form-header blue accent-1">
+            <h3><i class="fas fa-envelope"></i> Write to us:</h3>
+          </div>
+
+          <p>We'll write rarely, but with only the best content.</p>
+          <br>
+
+          <!--Body-->
+          <div class="md-form">
+            <i class="fas fa-user prefix grey-text"></i>
+            <input type="text" id="form-name" class="form-control">
+            <label for="form-name">Your name</label>
+          </div>
+
+          <div class="md-form">
+            <i class="fas fa-envelope prefix grey-text"></i>
+            <input type="text" id="form-email" class="form-control">
+            <label for="form-email">Your email</label>
+          </div>
+
+          <div class="md-form">
+            <i class="fas fa-tag prefix grey-text"></i>
+            <input type="text" id="form-Subject" class="form-control">
+            <label for="form-Subject">Subject</label>
+          </div>
+
+          <div class="md-form">
+            <i class="fas fa-pencil-alt prefix grey-text"></i>
+            <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+            <label for="form-text">Icon Prefix</label>
+          </div>
+
+          <div class="text-center mt-4">
+            <button class="btn btn-light-blue">Submit</button>
+          </div>
+
+        </div>
+
+      </div>
+      <!--Form with header-->
+
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-7">
+
+      <!--Google map-->
+      <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+        <iframe src="https://maps.google.com/maps?q=new%20delphi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+      <br>
+      <!--Buttons-->
+      <div class="row text-center">
+        <div class="col-md-4">
+          <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+          <p>San Francisco, CA 94126</p>
+          <p>United States</p>
+        </div>
+
+        <div class="col-md-4">
+          <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+          <p>+ 01 234 567 89</p>
+          <p>Mon - Fri, 8:00-22:00</p>
+        </div>
+
+        <div class="col-md-4">
+          <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
+          <p>info@gmail.com</p>
+          <p>sale@gmail.com</p>
+        </div>
+      </div>
+
+    </div>
+    <!--Grid column-->
+
+  </div>
+
+</section>
+<!--Section: Contact v.1-->
+<!--Google Maps-->
+
+
+
+</body>
+
+</html>
