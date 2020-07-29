@@ -41,12 +41,14 @@
             <h5 class="card-title">Adresa:</h5>
             <p class="card-text">Str. Petre Ispirescu Nr.1</p>
             <p class="card-text">Sat Tancabesti, Comuna Snagov</p>
-            <p class="card-text">077167 Ilfov, Romania</p><br>
-            <p class="card-text">Tel/Fax: +40 21 316 28 77</p>
-            <p class="card-text">+40 21 316 28 76</p>
-            <p class="card-text">E-mail: office@cromatec.ro</p><br>
-            <p class="card-text">CUI: RO 11347189</p>
-            <p class="card-text">Nr. Reg. Com.: J23/2208/2015</p>
+            <p class="card-text">077167 Ilfov, Romania</p>
+            <h5 class="card-title">Tel/Fax:</h5>
+            <p class="card-text"> <a href="tel:+40 21 316 28 77">+40 21 316 28 77</a></p>
+            <p class="card-text"><a href="tel:+40 21 316 28 76">+40 21 316 28 76</a></p>
+            <h5 class="card-title">E-mail:</h5>
+            <p class="card-text"> <a href="mailto:office@cromatec.ro">office@cromatec.ro</a></p>
+            <p class="card-text"><b>CUI:</b> RO 11347189</p>
+            <p class="card-text"><b>Nr. Reg. Com.:</b> J23/2208/2015</p>
           </div>
         </div>
       </div>

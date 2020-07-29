@@ -12,25 +12,67 @@
 </head>
 
 <body>
- 
 
-    <!-- navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand flex-md-fill text-md-center" href="despre_noi">BOTANIC FACTORY</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav mr-auto">
-            <a class="nav-item nav-link mx-5" href="despre_noi">DESPRE NOI</a>
-            <a class="nav-item nav-link mx-5" href="produse">PRODUSE</a>
-            <a class="nav-item nav-link mx-5 active" href="producator">PRODUCATOR</a>
-            <a class="nav-item nav-link mx-5" href="contact" tabindex="-1">CONTACT</a>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand flex-md-fill text-md-center" href="despre_noi">BOTANIC FACTORY</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav mr-auto">
+        <a class="nav-item nav-link mx-5" href="despre_noi">DESPRE NOI</a>
+        <a class="nav-item nav-link mx-5" href="produse">PRODUSE</a>
+        <a class="nav-item nav-link mx-5 active" href="producator">PRODUCATOR</a>
+        <a class="nav-item nav-link mx-5" href="contact" tabindex="-1">CONTACT</a>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+  <div class="container-fluid">
+    <div class="row" style="margin-top: 20px;">
+
+      <div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="4.jpg" class="card-img" alt="...">
           </div>
         </div>
-      </nav>
-    <!-- navbar -->
+      </div>
+
+      <div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-6">
+            <img src="4.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </div>
 
 
 </body>
