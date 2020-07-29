@@ -4,10 +4,10 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BOTANIC FACTORY</title>
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <script src="../scripts/jquery-3.4.1.slim.min.js"></script>
-  <script src="../scripts/popper.min.js"></script>
-  <script src="../scripts/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <script type ="text/javascript" src="/scripts/jquery-3.4.1.slim.min.js"></script>
+  <script type ="text/javascript" src="/scripts/popper.min.js"></script>
+  <script type ="text/javascript" src="/scripts/bootstrap.min.js"></script>
 
 </head>
 
@@ -26,7 +26,7 @@
             <a class="nav-item nav-link mx-5 active" href="despre_noi">DESPRE NOI</a>
             <a class="nav-item nav-link mx-5" href="produse">PRODUSE</a>
             <a class="nav-item nav-link mx-5" href="producator">PRODUCATOR</a>
-            <a class="nav-item nav-link mx-5" href="/html/contact" tabindex="-1">CONTACT</a>
+            <a class="nav-item nav-link mx-5" href="contact" tabindex="-1">CONTACT</a>
           </div>
         </div>
       </nav>
