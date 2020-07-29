@@ -26,7 +26,7 @@
             <a class="nav-item nav-link mx-5 active" href="despre_noi">DESPRE NOI</a>
             <a class="nav-item nav-link mx-5" href="produse">PRODUSE</a>
             <a class="nav-item nav-link mx-5" href="producator">PRODUCATOR</a>
-            <a class="nav-item nav-link mx-5" href="contact" tabindex="-1">CONTACT</a>
+            <a class="nav-item nav-link mx-5" href="/html/contact" tabindex="-1">CONTACT</a>
           </div>
         </div>
       </nav>
