@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html>
 
-<?php
-include('page_head');
-?>
+<?php include 'page_head'; ?>
 
 <body style="padding-top: 60px;">
 
 
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <a class="navbar-brand flex-md-fill text-md-center" style="max-height: 54px; padding-top: 0px;" href="despre_noi"><img
-        src="/photos/banner_trans.png" style="max-height: inherit;" alt="BOTANIC FACTORY"></a>
+    <a class="navbar-brand flex-md-fill text-md-center" style="max-height: 54px; padding-top: 0px;"
+      href="despre_noi"><img src="/photos/banner_trans.png" style="max-height: inherit;" alt="BOTANIC FACTORY"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav mr-auto">
-        <a class="nav-item nav-link mx-5 active" href="despre_noi">DESPRE NOI</a>
+        <a class="nav-item nav-link mx-5 active" href="despre_noi.php">DESPRE NOI</a>
         <a class="nav-item nav-link mx-5" href="produse">PRODUSE</a>
         <a class="nav-item nav-link mx-5" href="producator">PRODUCATOR</a>
         <a class="nav-item nav-link mx-5" href="contact" tabindex="-1">CONTACT</a>
