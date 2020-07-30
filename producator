@@ -1,21 +1,13 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BOTANIC FACTORY</title>
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <script src="../scripts/jquery-3.4.1.slim.min.js"></script>
-  <script src="../scripts/popper.min.js"></script>
-  <script src="../scripts/bootstrap.min.js"></script>
-
-</head>
-
-<body>
+  <?php require 'page_head'; ?>
+  
+<body style="padding-top: 60px;">
 
 
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <a class="navbar-brand flex-md-fill text-md-center" href="despre_noi">BOTANIC FACTORY</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,30 +30,12 @@
       <div class="card mb-3">
         <div class="row no-gutters">
           <div class="col-md-6">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src="4.jpg" class="card-img" alt="...">
-          </div>
-        </div>
-      </div>
-
-      <div class="card mb-3">
-        <div class="row no-gutters">
-          <div class="col-md-6">
-            <img src="4.jpg" class="card-img" alt="...">
+            <img src="6.jpg" class="card-img" alt="...">
           </div>
           <div class="col-md-6">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title">Investitie privata de peste 10 milioane de euro.<br>
+                 10 laboratoare de analize echipate cu aparatura de ultima generatie, amplasate pe etaje in suprafata totala de 1250mp.</h5>
             </div>
           </div>
           
@@ -69,7 +43,34 @@
       </div>
 
 
+      <div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Laborator de analize fizico-chimice pentru industria farmaceutica.<br>
+                 Autorizatie de fabricatie ANMDM.</h5>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="3.jpg" class="card-img" alt="...">
+          </div>
+        </div>
+      </div>
 
+      <div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-6">
+            <img src="5.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Certificat privind conformitatea cu buna practica de fabricatie (GMP).<br>
+                 Aviz DSP privind sectia de preparare uleiuri.</h5>
+            </div>
+          </div>
+          
+        </div>
+      </div>
 
     </div>
   </div>
