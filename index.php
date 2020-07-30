@@ -1,1 +1,1 @@
-<?php include_once("despre_noi.php"); ?>
+<?php include_once("despre_noi"); ?>
