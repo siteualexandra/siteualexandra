@@ -3,15 +3,32 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>BOTANIC FACTORY</title>
   <link rel="icon" type="image/png" href="/photos/logo_trans.png" />
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <script type="text/javascript" src="/scripts/jquery-3.4.1.slim.min.js"></script>
   <script type="text/javascript" src="/scripts/popper.min.js"></script>
   <script type="text/javascript" src="/scripts/bootstrap.min.js"></script>
+  <style>
+    h5 {
+      font-family: Georgia, serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      text-justify: inter-word;
+      font-size: 2.1vw;
+      text-size-adjust: auto;
+      letter-spacing: 0.5vw;
+      /* word-spacing: 0.6vw; */
+      color: rgba(225, 255, 224, 0.979);
+      background-color: rgba(255, 255, 255, 0);
+      text-shadow: rgb(56, 0, 0) 1.1vw 0.7vw 1.2vw;
+    }
+  </style>
 </head>
 
-<body style="padding-top: 60px;">
+<body style="padding-top: 10vh;">
 
 
   <!-- navbar -->
@@ -33,6 +50,76 @@
   </nav>
   <!-- navbar -->
 
+  <div class="container-fluid">
+    <!-- poza cu text -->
+    <div class="row" style="margin-top: 20px;">
+      <div class="card text-white">
+        <img src="/photos/fatadacladire.png" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <div class="align-items-center" style="padding: 7vw; padding-top: 2vw;">
+            <h5>Societatea Cromatec Plus a fost infiintata in anul 1998, cu un capital 100%
+              romanesc, avand ca obiect de activitate comercializarea aparaturii de laborator, inclusiv consumabile si
+              asigurarea serviciilor de instalare, punere in functiune si mentenanta, precum si instruirea personalului
+              utilizator.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Echipa -->
+    <div class="card rounded-30" style="border: none; padding-top: 4vh;">
+      <h4 class="card-header" style="text-align: center; background-color: #D8DF20; color: #696A6E;">Echipa</h4>
+      <div class="card-body" style="text-align: center;">
+        <p class="card-text">Nivelul de pregatire stiintifica al angajatilor este foarte ridicat, cei mai multi
+          (90%) avand studii universitare si postuniversitare.</p>
+        </br>
+        <p class="card-text">Echipa noastra este formata din profesionisti cu experienta si competenta in domeniu.
+          Datorita unui program exigent de instruire si perfectionare continua asigurat de firma producatoare,
+          echipa noastra este gata sa faca fata provocarilor de orice natura: tehnica, consultanta, instruire sau
+          dezvoltare de noi aplicatii.</p>
+      </div>
+    </div>
+    <!-- ISTORIC -->
+    <div class="card rounded-30" style="border: none; padding-top: 4vh;">
+      <h4 class="card-header" style="text-align: center; background-color: #D8DF20; color: #696A6E;">Istoric</h4>
+      <div class="card-body" style="text-align: center;">
+        <p class="card-text">In anul 2002 Cromatec Plus obtine certificarea nationala de catre SRAC si
+          internationala de catre IQNet a Sistemului de Management al Calitatii in conformitate cu standardul ISO
+          9001:2000. </p>
+        <p class="card-text">In anul 2008 este obtinuta certificarea nationala de catre SRAC si Internationala de
+          catre IQNet a Sistemului de management al sanatatii si securitatii ocupationale al organizatiei, in
+          conformitate cu standardul OHSAS 18001:2007 si a Sistemului de management de mediu , in conformitate cu
+          standardul ISO 14001:2005.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- footer -->
+  <footer class="page-footer font-small indigo">
+    <!-- Footer Links -->
+    <div class="container" style="background-color: #D8DF20; max-width: 100%; overflow-x: hidden;">
+      <!-- Grid row-->
+      <div class="row text-center d-flex justify-content-center pt-3">
+        <!-- Grid column -->
+        <div class="col-md-2 mb-2">
+          <h6 class="text-uppercase font-weight-bold" style="color: #696A6E;">Certificari</h6>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row-->
+      <hr class="rgba-white-light" style="margin: 0 15%;">
+      <!-- Grid row-->
+      <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+        <!-- Grid column -->
+        <div class="col-sm col-lg"><img src="/photos/certificari/1.png" width="100rem"></div>
+        <div class="col-sm col-lg"><img src="/photos/certificari/2.png" width="100rem"></div>
+        <div class="col-sm col-lg"><img src="/photos/certificari/3.png" width="100rem"></div>
+        <div class="col-sm col-lg"><img src="/photos/certificari/4.png" width="100rem"></div>
+        <!-- Grid column -->
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
 </body>
 
 </html>
