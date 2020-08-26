@@ -54,7 +54,7 @@
     <!-- poza cu text -->
     <div class="row" style="margin-top: 20px;">
       <div class="card text-white">
-        <img src="/photos/fatadacladire.png" class="card-img" alt="...">
+        <img src="/photos/fatadacladire.jpg" class="card-img" alt="...">
         <div class="card-img-overlay">
           <div class="align-items-center" style="padding: 7vw; padding-top: 2vw;">
             <!-- <h5>Societatea Cromatec Plus a fost infiintata in anul 1998, cu un capital 100%
