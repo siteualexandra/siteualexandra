@@ -76,7 +76,7 @@
 
 
   <!-- footer -->
-  <footer class="page-footer font-small indigo">
+  <footer class="page-footer font-small indigo" style="padding-top: 10vh">
     <!-- Footer Links -->
     <div class="container" style="background-color: #D8DF20; max-width: 100%; overflow-x: hidden;">
       <!-- Grid row-->
